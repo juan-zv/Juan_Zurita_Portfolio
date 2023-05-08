@@ -1,18 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins&display=swap');
+
+h1 {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+h2, h3, h4, h5, h6, p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
+    margin: 0 auto;
     text-align: center;
+    max-width: 1920px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #enterDetails {
-    float: left; 
-    width: 50%;  
-    background-color: darkslategray; 
+    width: 50%;
+    min-width: 450px;
+    background-color: #2A4747; 
     color: floralwhite;
 }
 
 #findDetails {
-    float: left; 
-    width: 50%; 
-    background-color: floralwhite; 
+    width: 50%;
+    min-width: 450px;
+    background-color: #61D095; 
     color: darkslategray;
 }
 
