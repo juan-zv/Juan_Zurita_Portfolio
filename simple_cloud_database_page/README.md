@@ -6,7 +6,13 @@ The page uses a simple and basic structure. It consists of an index.html documen
 
 The purpose for this project is to demonstrate my ability to develop a simple web page with a basic interface which uses CRUD features and succesfully interacts with a cloud database known as Firestore.
 
-[Software Demo Video](http://youtube.link.goes.here)
+NOTE: I created a branch to the main project to host the web page with Github pages.
+
+[Branch](https://github.com/juan-zv/Juan_Zurita_Portfolio/tree/gh-pages/)
+
+[Page](https://juan-zv.github.io/Juan_Zurita_Portfolio/)
+
+[Software Demo Video](https://youtu.be/KT8Nu-P5Xgo)
 
 # Cloud Database
 
@@ -34,3 +40,4 @@ I used Javascript to import the modules from the cloud database to the JavaScrip
 
 - Add auth method 
 - Add a framework to the project
+- Host the page in another repository and make all this bigger changes there
