@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import CardComponent from './postCard';
 import './App.css';
 
@@ -27,14 +26,14 @@ const App = () => {
           title="Introduction to JavaScript"
           text="Get started with JavaScript programming! This tutorial provides an introduction to the fundamentals of JavaScript, including variables, data types, control structures, functions, and more. By the end of the tutorial, you'll have a solid foundation in JavaScript programming."
         />
-          
+
         <CardComponent
           someone="Charlie Brown"
           datePublished="May 20, 2023"
           title="Building a RESTful API with Node.js"
           text="Learn how to build a RESTful API using Node.js and Express.js. This tutorial guides you through the process of setting up a server, handling routes and requests, connecting to a database, and implementing CRUD (Create, Read, Update, Delete) operations."
         />
-          
+
         <CardComponent
           someone="Diana Wilson"
           datePublished="May 22, 2023"
