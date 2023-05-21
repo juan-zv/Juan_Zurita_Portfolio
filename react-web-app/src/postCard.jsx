@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CardComponent = () => {
+const CardComponent = ({ someone, datePublished, title, text }) => {
   const [showComments, setShowComments] = useState(false);
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
@@ -24,11 +24,11 @@ const CardComponent = () => {
     <div className="card">
       <div className="posting-user-container">
         <img src="" alt="" />
-        <h6>Someone</h6>
-        <p>Date published</p>
+        <h6>{someone}</h6>
+        <p>{datePublished}</p>
       </div>
-      <h3>Tittle</h3>
-      <p>Text, explanation, etc ..................</p>
+      <h3>{title}</h3>
+      <p>{text}</p>
       <button>🫶</button>
       <button onClick={handleCommentClick}>✍️</button>
       {showComments && (
