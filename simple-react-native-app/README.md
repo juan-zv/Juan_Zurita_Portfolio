@@ -8,19 +8,22 @@ React Native is a well-known framework used to build mobile apps which use nativ
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+I used VSCode, Node.js and the Ract Native framework with the Expo CLI.
 
-{Describe the programming language that you used and any libraries.}
+* VSCode v1.79.2
+* Node.js v19.9.0
+* React Native v10.1.3
+* Expo CLI v0.7.3
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Visual Studio Code Download](https://code.visualstudio.com/)
+* [Node.js Download](https://nodejs.org/en)
+* [React Native Docs](https://reactnative.dev/docs/components-and-apis)
+* [Expo CLI Docs](https://expo.dev/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add a more screens with different examples of components and uses of React Native.
+* Make components responsive for different devices size.
+* Use other ways of routing and emulating or publishing the app.
