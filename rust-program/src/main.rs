@@ -59,8 +59,13 @@ fn main() {
     println!("The number is between 1 and 10!");
 
     let secret_number = 7;
+    let mut remaining_guesses = 3;
 
     loop {
+        if remaining_guesses == 0 {
+            println!("You ran out of guesses! The secret number was {}.", secret_number);
+            break;
+        }
         println!("Please enter your guess:");
 
         let mut guess = String::new();
@@ -77,14 +82,50 @@ fn main() {
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {
-            Ordering::Less => println!("Too small!"),
-            Ordering::Greater => println!("Too big!"),
+            Ordering::Less => {
+                println!("Too small!");
+                remaining_guesses -= 1;
+            }
+            Ordering::Greater => {
+                println!("Too big!");
+                remaining_guesses -= 1;
+            }
             Ordering::Equal => {
                 println!("Congratulations! You guessed the correct number.");
                 break;
             }
         }
     }
+    println!("------------------------------------------------");
+    // I didn't go over the array in Rust in the video demo but this is another important
+    // data structure in Rust. Arrays are fixed in size and can't be resized.
+    
+    // Create an empty vector
+    let mut my_vec: Vec<i32> = Vec::new();
+
+    // Add elements to the vector
+    my_vec.push(10);
+    my_vec.push(20);
+    my_vec.push(30);
+
+    // Access elements of the vector
+    println!("First element: {}", my_vec[0]);
+    println!("Second element: {}", my_vec[1]);
+    println!("Third element: {}", my_vec[2]);
+
+    // Iterate over the vector
+    for element in &my_vec {
+        println!("Element: {}", element);
+    }
+
+    // Get the length of the vector
+    println!("Vector length: {}", my_vec.len());
+
+    // Remove an element from the vector
+    my_vec.pop();
+
+    // Check if the vector is empty
+    println!("Is vector empty? {}", my_vec.is_empty());
 }
 
 fn square(x: i32) -> i32 {

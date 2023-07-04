@@ -1,8 +1,6 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the software that you wrote to demonstrate the Rust language.}
+I wrote a simple Rust program which shows the main features of this programming language. The program consist on simple examples of mutable and immutable variables, functions, expressions, conditionals and loops.
 
 {Describe your purpose for writing this software.}
 
