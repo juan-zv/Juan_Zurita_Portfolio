@@ -2,29 +2,29 @@
 
 I wrote a simple Rust program which shows the main features of this programming language. The program consist on simple examples of mutable and immutable variables, functions, expressions, conditionals and loops.
 
-{Describe your purpose for writing this software.}
+The purpose of writting this program is to demonstrate my skills in Rust. I have learned Rust over the past two weeks and I am comfortable with the features it offers. I link the video demonstration that I recorded in order to explain basic concepts of Rust and how the program works.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](https://youtu.be/WoFI4AiT_GE)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used VSCode, Rust, dependencies from Visual Studio and C++.
 
-{Describe the programming language that you used and any libraries.}
+* VSCode v1.79.2
+* Rust v1.90.0
+* Cargo
+* Visual Studio C++ Build Tools
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Rust Installation Guide](https://www.rust-lang.org/learn/get-started)
+- [Rust VSCode Guide](https://code.visualstudio.com/docs/languages/rust)
+- [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+- [Rust Documentation (or the Rust Book)](https://doc.rust-lang.org/book/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Implement more types of data structures
+- Add more games to make use of common data structures, expressions and algorithms
+- Use more examples to show the performance difference between Rust and other programming languages.
